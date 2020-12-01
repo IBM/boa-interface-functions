@@ -1,0 +1,29 @@
+#!/bin/bash
+#Licensed Materials - Property of IBM
+#“Restricted Materials of IBM”
+#5765-R17
+#© Copyright IBM Corp. 2020 All Rights Reserved.
+#US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp
+
+# Deform the geometry based on the arguments
+if [ $# -ne 5 ]
+then
+  echo "Usage: ./setBCs c1 c2 c3 c4 c5"
+else
+  c1=${1}
+  c2=${2}
+  c3=${3}
+  c4=${4}
+  c5=${5}
+
+  baseDir=`pwd`
+  simDir="${baseDir}/cylinder-${c1}-${c2}-${c3}-${c4}-${c5}"
+
+  sed -i "s/FVEL/$c1/" $simDir/cylinderAndBackground/0.orig/include/initialConditions
+  sed -i "s/PRESS/$c2/" $simDir/cylinderAndBackground/0.orig/include/initialConditions
+  sed -i "s/TKE/$c3/" $simDir/cylinderAndBackground/0.orig/include/initialConditions
+  sed -i "s/TEPS/$c4/" $simDir/cylinderAndBackground/0.orig/include/initialConditions
+  sed -i "s/WVEL/$c5/" $simDir/cylinderAndBackground/0.orig/U
+
+  cd $baseDir
+fi

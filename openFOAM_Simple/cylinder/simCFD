@@ -1,0 +1,29 @@
+#!/bin/bash
+#Licensed Materials - Property of IBM
+#“Restricted Materials of IBM”
+#5765-R17
+#© Copyright IBM Corp. 2020 All Rights Reserved.
+#US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp
+
+# Run an OpenFOAM simulation to compute the flow around the cylinder
+if [ $# -ne 5 ]
+then
+  echo "Usage: ./simCFD c1 c2 c3 c4 c5"
+else
+  c1=${1}
+  c2=${2}
+  c3=${3}
+  c4=${4}
+  c5=${5}
+
+  baseDir=`pwd`
+  cd ${baseDir}/cylinder-${c1}-${c2}-${c3}-${c4}-${c5}
+
+  ./Allclean > /dev/null
+  timeout 10m ./Allrun > run.out
+  if [ $? -ne 0 ]
+  then
+    echo "2"
+    exit 0
+  fi
+fi

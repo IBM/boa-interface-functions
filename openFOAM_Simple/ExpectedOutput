@@ -1,0 +1,37 @@
+Connected to message broker with result code 0
+Calculating the next y value for suggested parameters...
+Epoch ran at : 2020-11-11 12:04:10.930355 with following Deformation parameters : ['/root/BOA_repo/repo_10Nov/BOA-Interface-Functions/openFOAM_Simple/cylinder                  /postprocess', '10.0', '0.9', '1.51', '0.88', '-0.029999999999999583']
+Epoch result = 7.70577
+Inserting into BOaaS
+--------------------
+Calculating the next y value for suggested parameters...
+Epoch ran at : 2020-11-11 12:05:25.729991 with following Deformation parameters : ['/root/BOA_repo/repo_10Nov/BOA-Interface-Functions/openFOAM_Simple/cylinder                  /postprocess', '0.0', '0.0', '1.4', '0.85', '-0.5']
+Epoch result = 0.603696
+Inserting into BOaaS
+--------------------
+Calculating the next y value for suggested parameters...
+Epoch ran at : 2020-11-11 12:06:54.006973 with following Deformation parameters : ['/root/BOA_repo/repo_10Nov/BOA-Interface-Functions/openFOAM_Simple/cylinder                  /postprocess', '0.0', '0.9', '1.6', '0.9', '0.4900000000000009']
+Epoch result = 0.712605
+Inserting into BOaaS
+--------------------
+Calculating the next y value for suggested parameters...
+Epoch ran at : 2020-11-11 12:08:15.211900 with following Deformation parameters : ['/root/BOA_repo/repo_10Nov/BOA-Interface-Functions/openFOAM_Simple/cylinder                  /postprocess', '1.0', '0.0', '1.4', '0.85', '-0.5']
+Epoch result = 0.510376
+Inserting into BOaaS
+--------------------
+Calculating the next y value for suggested parameters...
+Epoch ran at : 2020-11-11 12:09:36.196242 with following Deformation parameters : ['/root/BOA_repo/repo_10Nov/BOA-Interface-Functions/openFOAM_Simple/cylinder                  /postprocess', '19.0', '0.0', '1.4', '0.85', '-0.5']
+Epoch result = 22.6771
+Inserting into BOaaS
+--------------------
+Calculating the next y value for suggested parameters...
+Epoch ran at : 2020-11-11 12:10:58.044447 with following Deformation parameters : ['/root/BOA_repo/repo_10Nov/BOA-Interface-Functions/openFOAM_Simple/cylinder                  /postprocess', '1.0', '0.0', '1.4', '0.86', '-0.5']
+Epoch result = 0.507401
+Inserting into BOaaS
+--------------------
+Completed 5 iterations of Bayesian Optimisation.
+5 iterations of Bayesian Optimisation have been completed in total for this experiment.
+waiting_for_observation
+best observation:
+{'best': {'X': [1.0, 0.0, 1.4, 0.86, -0.5], 'y': 0.507401}}
+
