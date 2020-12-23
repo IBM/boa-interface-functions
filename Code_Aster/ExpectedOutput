@@ -1,0 +1,85 @@
+Connected to message broker with result code 0
+Calculating the next y value for suggested parameters...
+
+Length Used: 4.3000000000000025 m
+Thickness Used: 0.21999999999999995 m
+Width Used: 1.8000000000000007 m
+Exit Status of Code Aster Simulation is:   NOOK_TEST_RESU
+Displacement is: -3.05215e-21 m
+--------------------
+Calculating the next y value for suggested parameters...
+
+Length Used: 4.5000000000000036 m
+Thickness Used: 0.1 m
+Width Used: 1.0 m
+Exit Status of Code Aster Simulation is:   NOOK_TEST_RESU
+Displacement is: -5.12721e-22 m
+--------------------
+Calculating the next y value for suggested parameters...
+
+Length Used: 3.7000000000000024 m
+Thickness Used: 0.15999999999999998 m
+Width Used: 2.5000000000000013 m
+Exit Status of Code Aster Simulation is:   NOOK_TEST_RESU
+Displacement is: 3.27372e-22 m
+--------------------
+Calculating the next y value for suggested parameters...
+
+Length Used: 3.100000000000002 m
+Thickness Used: 0.1 m
+Width Used: 3.400000000000002 m
+Exit Status of Code Aster Simulation is:   NOOK_TEST_RESU
+Displacement is: 1.51357e-22 m
+--------------------
+Calculating the next y value for suggested parameters...
+
+Length Used: 3.500000000000002 m
+Thickness Used: 0.3799999999999999 m
+Width Used: 3.400000000000002 m
+Exit Status of Code Aster Simulation is:   NOOK_TEST_RESU
+Displacement is: -9.09928e-23 m
+--------------------
+Calculating the next y value for suggested parameters...
+
+Length Used: 2.300000000000001 m
+Thickness Used: 0.3799999999999999 m
+Width Used: 2.300000000000001 m
+Exit Status of Code Aster Simulation is:   NOOK_TEST_RESU
+Displacement is: -1.84985e-22 m
+--------------------
+Calculating the next y value for suggested parameters...
+
+Length Used: 3.6000000000000023 m
+Thickness Used: 0.4199999999999998 m
+Width Used: 3.300000000000002 m
+Exit Status of Code Aster Simulation is:   NOOK_TEST_RESU
+Displacement is: -7.50716e-22 m
+--------------------
+Calculating the next y value for suggested parameters...
+
+Length Used: 4.600000000000003 m
+Thickness Used: 0.1 m
+Width Used: 1.9000000000000008 m
+Exit Status of Code Aster Simulation is:   NOOK_TEST_RESU
+Displacement is: 1.61321e-21 m
+--------------------
+Calculating the next y value for suggested parameters...
+
+Length Used: 1.9000000000000008 m
+Thickness Used: 0.3799999999999999 m
+Width Used: 3.200000000000002 m
+Exit Status of Code Aster Simulation is:   NOOK_TEST_RESU
+Displacement is: -7.17716e-24 m
+--------------------
+Calculating the next y value for suggested parameters...
+
+Length Used: 1.7000000000000006 m
+Thickness Used: 0.45999999999999985 m
+Width Used: 1.9000000000000008 m
+Exit Status of Code Aster Simulation is:   NOOK_TEST_RESU
+Displacement is: 2.09811e-22 m
+--------------------
+Completed 10 iterations of Bayesian Optimisation.
+10 iterations of Bayesian Optimisation have been completed in total for this experiment.
+best observation:
+{'best': {'X': [4.200000000000003, 0.1, 1.0], 'y': 6.83115e-21}}
